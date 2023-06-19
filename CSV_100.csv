@@ -20,6 +20,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123019,CLARK FORKLIFT 019,2020-07-10,Yes,item 9,"multi 4, multi 5, multi 6"
 123020,CLARK FORKLIFT 020,2020-08-10,No,item 10,"multi 7, multi 8, multi 9"
 123021,CLARK FORKLIFT 021,2020-09-10,Yes,item 1,"multi 10, multi 1, multi 2"
+123022D, CLARK FORKLIFT 022, Maandag 19 Juni, 35, 1 item, "3 multi, 10 multi"
 123022,CLARK FORKLIFT 022,2020-10-10,No,item 2,"multi 3, multi 4, multi 5"
 123023,CLARK FORKLIFT 023,2020-11-10,Yes,item 3,"multi 6, multi 7, multi 8"
 123024,CLARK FORKLIFT 024,2020-12-10,No,item 4,"multi 9, multi 10, multi1, multi 2"
