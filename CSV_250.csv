@@ -1,5 +1,5 @@
-CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
-123001,CLARK FORKLIFT 001,2019-01-10,Yes,item 1,"multi 1,multi 3,multi 5,multi 7,multi 9"
+CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI,Useless_Column
+123001,CLARK FORKLIFT 001,2019-01-10,Yes,item 1,"multi 1,multi 3,multi 5,multi 7,multi 9",123
 123002,CLARK FORKLIFT 002,2019-02-10,No,item 2,"multi 2,multi 4,multi 6,multi 8,multi 10"
 123003,CLARK FORKLIFT 003,2019-03-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
 123004,CLARK FORKLIFT 004,2019-04-10,No,item 4,"multi 2,multi 4,multi 6,multi 8,multi 10"
@@ -48,7 +48,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123047,CLARK FORKLIFT 047,2022-11-10,Yes,item 7,"multi 10,multi 1,multi 2"
 123048,CLARK FORKLIFT 048,2022-12-10,No,item 8,"multi 3,multi 4,multi 5"
 123049,CLARK FORKLIFT 049,2023-01-10,Yes,item 9,"multi 6,multi 7,multi 8"
-123050,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2"
+123050,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2";456
 123051,CLARK FORKLIFT 051,2023-03-10,Yes,item 1,"multi 3,multi 4,multi 5,multi 6"
 123052,CLARK FORKLIFT 052,2023-04-10,No,item 2,"multi 7,multi 8,multi 9,multi 10"
 123053,CLARK FORKLIFT 053,2023-05-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -98,7 +98,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123097,CLARK FORKLIFT 097,2027-01-10,Yes,item 7,"multi 4,multi 5,multi 6"
 123098,CLARK FORKLIFT 098,2027-02-10,No,item 8,"multi 7,multi 8,multi 9"
 123099,CLARK FORKLIFT 099,2027-03-10,Yes,item 9,"multi 10,multi 1,multi 2"
-123100,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5"
+123100,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5",789
 123101,CLARK FORKLIFT 001,2019-01-10,Yes,item 1,"multi 1,multi 3,multi 5,multi 7,multi 9"
 123102,CLARK FORKLIFT 002,2019-02-10,No,item 2,"multi 2,multi 4,multi 6,multi 8,multi 10"
 123103,CLARK FORKLIFT 003,2019-03-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -148,7 +148,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123147,CLARK FORKLIFT 047,2022-11-10,Yes,item 7,"multi 10,multi 1,multi 2"
 123148,CLARK FORKLIFT 048,2022-12-10,No,item 8,"multi 3,multi 4,multi 5"
 123149,CLARK FORKLIFT 049,2023-01-10,Yes,item 9,"multi 6,multi 7,multi 8"
-123150,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2"
+123150,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2",ABC
 123151,CLARK FORKLIFT 051,2023-03-10,Yes,item 1,"multi 3,multi 4,multi 5,multi 6"
 123152,CLARK FORKLIFT 052,2023-04-10,No,item 2,"multi 7,multi 8,multi 9,multi 10"
 123153,CLARK FORKLIFT 053,2023-05-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -198,7 +198,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123197,CLARK FORKLIFT 097,2027-01-10,Yes,item 7,"multi 4,multi 5,multi 6"
 123198,CLARK FORKLIFT 098,2027-02-10,No,item 8,"multi 7,multi 8,multi 9"
 123199,CLARK FORKLIFT 099,2027-03-10,Yes,item 9,"multi 10,multi 1,multi 2"
-123200,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5"
+123200,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5",2027-04-10 10:50:14
 123201,CLARK FORKLIFT 001,2019-01-10,Yes,item 1,"multi 1,multi 3,multi 5,multi 7,multi 9"
 123202,CLARK FORKLIFT 002,2019-02-10,No,item 2,"multi 2,multi 4,multi 6,multi 8,multi 10"
 123203,CLARK FORKLIFT 003,2019-03-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -248,7 +248,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123247,CLARK FORKLIFT 047,2022-11-10,Yes,item 7,"multi 10,multi 1,multi 2"
 123248,CLARK FORKLIFT 048,2022-12-10,No,item 8,"multi 3,multi 4,multi 5"
 123249,CLARK FORKLIFT 049,2023-01-10,Yes,item 9,"multi 6,multi 7,multi 8"
-123250,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2"
+123250,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2",Yes
 123251,CLARK FORKLIFT 051,2023-03-10,Yes,item 1,"multi 3,multi 4,multi 5,multi 6"
 123252,CLARK FORKLIFT 052,2023-04-10,No,item 2,"multi 7,multi 8,multi 9,multi 10"
 123253,CLARK FORKLIFT 053,2023-05-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -298,7 +298,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123297,CLARK FORKLIFT 097,2027-01-10,Yes,item 7,"multi 4,multi 5,multi 6"
 123298,CLARK FORKLIFT 098,2027-02-10,No,item 8,"multi 7,multi 8,multi 9"
 123299,CLARK FORKLIFT 099,2027-03-10,Yes,item 9,"multi 10,multi 1,multi 2"
-123300,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5"
+123300,CLARK FORKLIFT 100,2027-04-10,No,item 10,"multi 3,multi 4,multi 5",no
 123301,CLARK FORKLIFT 001,2019-01-10,Yes,item 1,"multi 1,multi 3,multi 5,multi 7,multi 9"
 123302,CLARK FORKLIFT 002,2019-02-10,No,item 2,"multi 2,multi 4,multi 6,multi 8,multi 10"
 123303,CLARK FORKLIFT 003,2019-03-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
@@ -348,4 +348,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI
 123347,CLARK FORKLIFT 047,2022-11-10,Yes,item 7,"multi 10,multi 1,multi 2"
 123348,CLARK FORKLIFT 048,2022-12-10,No,item 8,"multi 3,multi 4,multi 5"
 123349,CLARK FORKLIFT 049,2023-01-10,Yes,item 90,"multi 6,multi 7,multi 8"
-123350,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 100,multi 1,multi 20"
+123350,CLARK FORKLIFT 050,2023-02-10 16:25:18,No,item 10,"multi 9,multi 100,multi 1,multi 20","multi 4,multi 5,multi 2,multi 30"
+,CLARK FORKLIFT 030,2022-12-10,No,item 10,"multi 2,multi 4,multi 6,multi 8,multi 10"
+123340,WRONG DATA,2022-04-10,No,,
+123330,WRONG DATA,2024-06-10,No,item 2,"multi 3,multi 7,multi 8,multi 1,multi 9"
