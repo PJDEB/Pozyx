@@ -48,7 +48,7 @@ CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI,Useless_Co
 123047,CLARK FORKLIFT 047,2022-11-10,Yes,item 7,"multi 10,multi 1,multi 2"
 123048,CLARK FORKLIFT 048,2022-12-10,No,item 8,"multi 3,multi 4,multi 5"
 123049,CLARK FORKLIFT 049,2023-01-10,Yes,item 9,"multi 6,multi 7,multi 8"
-123050,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2";456
+123050,CLARK FORKLIFT 050,2023-02-10,No,item 10,"multi 9,multi 10,multi 1,multi 2",456
 123051,CLARK FORKLIFT 051,2023-03-10,Yes,item 1,"multi 3,multi 4,multi 5,multi 6"
 123052,CLARK FORKLIFT 052,2023-04-10,No,item 2,"multi 7,multi 8,multi 9,multi 10"
 123053,CLARK FORKLIFT 053,2023-05-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9"
