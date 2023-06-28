@@ -1,5 +1,5 @@
 CSV_ID,CSV_NAME,CSV_DATE,CSV_FLAG,CSV_CHOICELIST,CSV_CHOICELIST_MULTI,Useless_Column
-123001,CLARK FORKLIFT 001 NEW (no multi 1),2000-01-10,Yes,,"multi 3,multi 5,multi 7,multi 9",123
+123001,CLARK FORKLIFT 001 NEW (with multi 1 and item 1),2000-01-10,Yes,item 1,"multi 3,multi 5,multi 7,multi 9, multi 1",123
 123002,CLARK FORKLIFT 002,,,,"multi 2,multi 4,multi 6,multi 8,multi 10",
 123003,CLARK FORKLIFT 003,2019-03-10,Yes,item 3,"multi 1,multi 3,multi 5,multi 7,multi 9",
 123004,CLARK FORKLIFT 004,2019-04-10,No,item 4,"multi 2,multi 4,multi 6,multi 8,multi 10",
